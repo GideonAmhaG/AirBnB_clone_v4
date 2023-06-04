@@ -1,15 +1,22 @@
-window.addEventListener('load', function () {
-  const amenityIds = {};
-  $('input[type=checkbox]').change(function () {
-    if ($(this).prop('checked')) {
-      amenityIds[$(this).attr('data-id')] = $(this).attr('data-name');
-    } else if (!$(this).prop('checked')) {
-      delete amenityIds[$(this).attr('data-id')];
-    }
-    if (Object.keys(amenityIds).length === 0) {
-      $('div.amenities h4').html('&nbsp');
+// Script that is executed only when DOM is loaded with jQuery
+
+const checked_box = {};
+$(document).ready(function () {
+  $('input:checkbox').change(function () {
+    if ($(this).is(':checked_box')) {
+	    checked_box[$(this).data('id')] = $(this).data('name');
     } else {
-      $('div.amenities h4').text(Object.values(amenityIds).join(', '));
+	    delete checked_box[$(this).data('id')];
     }
+    $('div.amenities h4').html(function () {
+	    const amenities = [];
+	    Object.keys(checked_box).forEach(function (key) {
+        amenities.push(checked_box[key]);
+	    });
+	    if (amenities.length === 0) {
+        return ('&nbsp');
+	    }
+	    return (amenities.join(', '));
+    });
   });
 });
