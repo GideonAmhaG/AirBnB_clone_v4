@@ -23,7 +23,8 @@ This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.
 
 ## Installation
 * Clone this repository: `git clone "[https://github.com/GideonAmhaG/AirBnB_clone_v4]"`
-* Access AirBnb directory: `cd AirBnB_clone`
+* Access AirBnb directory: `cd AirBnB_clone_v4`
+* Make script executable: chmod +x console.py (Alternatively, you can run: python3 console.py)
 * Run hbnb(interactively): `./console` and enter command
 * Run hbnb(non-interactively): `echo "<command>" | ./console.py`
 
