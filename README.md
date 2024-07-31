@@ -1,4 +1,4 @@
-# AirBnB Clone - The Console
+# Airbnb Clone - The Console
 This project is a foundational backend for an AirBnB clone built using Python. It implements a command-line interface to manage core AirBnB functionalities such as creating, retrieving, updating, and deleting users, places, and other essential data objects. The project serves as a robust data management layer, providing a solid base for future frontend and API development. It emphasizes clean code, object-oriented programming principles, and efficient data handling.
 
 #### Functionalities of this command interpreter:
