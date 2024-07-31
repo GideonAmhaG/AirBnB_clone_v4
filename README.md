@@ -155,7 +155,7 @@ EOF  all  create  destroy  help  quit  show  update
 No known bugs at this time. 
 
 ## Authors
-Gideon Amha Gebremedhin - [Github](https://github.com/GideonAmhaG) [X](https://x.com/GideonAmha)
+Gideon Amha Gebremedhin - [Github](https://github.com/GideonAmhaG) | [X](https://x.com/GideonAmha)
 
 ## License
 Public Domain. No copy write protection. 
